@@ -1,0 +1,342 @@
+/* Navbar and other settings  */
+.iphm_navbar{
+    flex-direction: column;
+    height: 275px;
+    transition: all 0.5s ease-in-out;
+}
+.logo_resp{
+    width: 40px;
+    position: fixed;
+    z-index: 1;
+    left: 20px;
+    border-radius: 50px;
+    top: 7px;
+    display: block;
+    z-index: 15;
+}
+.h_nav{
+    height: 55px;
+}
+.v_class{
+    display: none;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+.iphm_navbar_link{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.iphm_navbar2{
+    display: none;
+}
+
+.iphm_navbar .iphm_navbar_link a{
+    font-size: 10px;
+    border-bottom: 1px solid #4c4e5d;
+    width: 60vw;
+    text-align: center;
+    padding: 10px 0px;
+}
+.iphm_navbar .iphm_navbar_logo{
+    width: 60vw;
+}
+.iphm_navbar .iphm_navbar_logo img{
+    width: 40px;
+    margin: 0px auto;
+    display: block;
+    z-index: 15;
+}
+.iphm_navbar .iphm_buttons{
+    width: 50vw;
+    text-align: center;
+}
+.iphm_navbar .iphm_buttons a{
+    padding: 7px 15px;
+    font-size: 10px;
+    margin: 5px 5px;
+}
+.iphm_navbar .iphm_buttons {
+    justify-content: center;
+}
+.burger{
+    position: fixed;
+    cursor: pointer;
+    right: 4%;
+    top: 15px;
+    z-index: 15;
+}
+.line{
+    width: 22px;
+    background-color: white;
+    height:3px;
+    margin: 4px;
+    border-radius: 5px;
+}
+
+/* Home container styling here  */
+.iphm_container1{
+    padding: 20px 0px 0px 0px;
+}
+.iphm_container1 .iphm_para{
+    border-radius: 0px;
+}
+.iphm_container1 .iphm_para .heading{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0px auto;
+    padding: 0px 10px 10px 10px;
+}
+.iphm_container1 .iphm_para .p p{
+    font-size: 12px;
+    width: 90vw;
+}
+.iphm_container1 .iphm_para .iphm_ytlogo img{
+    width: 30px;
+    margin: 5px 10px;
+}
+.iphm_container1 .iphm_para a{
+    width: 70vw;
+    font-size: 12px;
+    padding: 3px 0px;
+    border: 2px solid white;
+}
+
+
+/* video cards section styling  */
+.iphm_maincards div h1,.iphm_moto h1{
+    font-size: 1.3rem;
+    text-align: center;
+    position: relative;
+    width: 100vw;
+}
+.iphm_maincards .iphm_cardcontainder .cards{
+    width: 90vw;
+    border-radius: 10px;
+}
+.iphm_maincards .iphm_cardcontainder div a{
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.iphm_maincards .iphm_cardcontainder div a img{
+    width: 20px;
+}
+.iphm_maincards div h1::before,.iphm_moto h1::before{
+    height: 3px;
+    position: absolute;
+}
+.iphm_moto ul li::before{
+    font-size: 10px;
+}
+
+/* Moto section styling  */
+.iphm_moto{
+    padding: 20px 0px;
+    flex-direction: column;
+}
+.iphm_moto ul{
+    width: 90vw;
+    border-radius: 8px;
+    margin: 10px auto;
+}
+.iphm_moto ul li{
+    font-size: 10px;
+}
+
+/* footer styling  */
+.iphm_footer{
+    padding: 10px;
+}
+.iphm_footer .iphm_copyright p{
+    font-size: 8px;
+}
+.iphm_footer .iphm_copyright a{
+    font-size: 8px;
+    margin: 5px 0px;
+    padding: 0px 5px;
+}
+.iphm_reference h5 span,.iphm_reference h5{
+    font-size: 10px;
+}
+.iphm_footer .iphm_copyright .fa-copyright:before,.fa-at:before{
+    font-size: 8px;
+}
+
+
+
+
+/* notes page styling  */
+.iphm_notescards{
+    flex-direction: column;
+}
+.iphm_notescards .outerdiv{
+    flex-direction: column;
+}
+.iphm_notescards .outerdiv .iphm_notes{
+    width: 90vw;
+    margin: 10px;
+}
+.iphm_notescards .outerdiv .iphm_notes img{
+    width: 150px;
+}
+.iphm_notescards .outerdiv .iphm_notes p{
+    font-size: 12px;
+}
+.iphm_notescards .outerdiv .iphm_notes h3{
+    font-size: 0.8rem;
+}
+.iphm_notescards .outerdiv .iphm_notes a{
+    font-size: 12px;
+}
+
+.iphm_panel{
+    padding: 15px;
+}
+.iphm_panel .iphm_python,.iphm_panel .iphm_mysql,.iphm_panel .iphm_si,.iphm_panel .iphm_cn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    margin: 15px 0px;
+    flex-direction: column;
+}
+.iphm_panel .iphm_python h1,.iphm_panel .iphm_mysql h1,.iphm_panel .iphm_si h1,.iphm_panel .iphm_cn h1{
+    font-size: 1rem;
+    text-align: center;
+    padding: 0px 0px 10px 0px;
+}
+.iphm_panel .iphm_python div img,.iphm_panel .iphm_mysql div img,.iphm_panel .iphm_si div img,.iphm_panel .iphm_cn div img{
+    width: 20vw;
+    margin: 10px;
+    padding: 0;
+}
+.iphm_panel .iphm_python div,.iphm_panel .iphm_mysql div,.iphm_panel .iphm_si div,.iphm_panel .iphm_cn div{
+    text-align: center;
+    margin: 10px;
+    padding: 0px;
+}
+.iphm_panel .iphm_python div p,.iphm_panel .iphm_mysql div p,.iphm_panel .iphm_si div p,.iphm_panel .iphm_cn div p{
+    font-size: 8px;
+    margin: 5px;
+}
+.iphm_panel .iphm_python div a,.iphm_panel .iphm_mysql div a,.iphm_panel .iphm_si div a,.iphm_panel .iphm_cn div a{
+    padding: 5px 5px;
+    margin: 0px 8px;
+    font-size: 6px;
+    width: 20vw;
+}
+
+
+/* blog page styling  */
+.iphm_blog h1{
+    font-size: 1.3rem;
+}
+
+/* contact page styling  */
+.iphm_contact .iphm_main div h1{
+    font-size: 1rem;
+}
+.iphm_contact{
+    padding: 10px;
+}
+.iphm_contact .iphm_main .iphm_p{
+    width: 70vw;
+    font-size: 10px;
+    margin: 0 auto;
+}
+.iphm_contact .iphm_main{
+    padding: 10px;
+}
+.iphm_contact .iphm_main .iphm_contact_links a .fa-brands{
+    font-size: 20px;
+    margin: 5px;
+}
+
+
+
+/* about me styling  */
+.iphm_about{
+    padding: 0px 0px 20px 0px;
+}
+.iphm_about .iphm_main{
+    flex-direction: column-reverse;
+}
+.iphm_about .iphm_main div{
+    margin: 0px;
+}
+.iphm_about .iphm_main .info{
+    width: 90vw;
+}
+.iphm_about .image{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.iphm_about .image img{
+    width: 140px;
+    border: 3px solid #3a3e59;
+}
+.iphm_about .iphm_main div h1{
+    font-size: 1.2rem;
+    text-align: center;
+    position: relative;
+    width: 60vw;
+    display: block;
+    margin: 0 auto;
+    border-bottom: 3px solid #3a3e59;
+}
+.iphm_about .iphm_main ul li{
+    font-size: 0.8rem;
+}
+.iphm_about .iphm_main ul li::before{
+    top: 35px;
+}
+
+
+/* Login page and signin page styling ? */
+/* Login Page Styling? */
+.iphm_login,.iphm_signin{
+    padding: 20px;
+}
+.iphm_login form,.iphm_signin form{
+    width: 85vw;
+}
+.iphm_login img,.iphm_signin img{
+    width: 60px;
+}
+.iphm_login input,.iphm_signin input,.iphm_signin textarea{
+    font-size: 10px;
+    width: 50vw;
+    padding: 5px;
+    margin: 10px 5px;
+}
+.iphm_signin form .email::before,.iphm_login form .email::before,.iphm_login form .password::before,.iphm_signin form .name::before,.iphm_signin form .name::before,.iphm_signin form .password::before,.iphm_signin form .message::before,.iphm_signin form .number::before{
+    font-size: 10px;
+    margin: 0;
+}
+.iphm_login .submit,.iphm_signin .submit{
+    padding: 6px 20px;
+    font-size: 12px;
+}
+.iphm_signin .iphm_checkpp{
+    width: 60vw;
+    font-size: 10px;
+}
+
+
+
+/* terms and conditions page styling  */
+.iphm_terms{
+    padding: 10px;
+}
+.iphm_terms .iphm_p{
+    font-size: 8px;
+    width: 90vw;
+    border-radius: 10px;
+    padding: 10px;
+}
+.iphm_terms .iphm_p p b{
+    font-size: 12px;
+}

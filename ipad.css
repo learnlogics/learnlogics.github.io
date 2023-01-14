@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styling  */
+.iphm_navbar{
+    justify-content: space-evenly;
+}
+.iphm_navbar .iphm_navbar_logo{
+    width: 15%;
+}
+.iphm_navbar .iphm_navbar_logo img{
+    text-align: center;
+    width: 60px;
+}
+.iphm_navbar .iphm_navbar_link{
+    width: 60%;
+    text-align: center;
+}
+.iphm_navbar .iphm_navbar_link a{
+    font-size: 15px;
+    padding: 13px;
+}
+.iphm_navbar .iphm_buttons{
+    width: 20%;
+    text-align: center;
+}
+.iphm_navbar .iphm_buttons a{
+    padding: 10px 15px;
+    font-size: 10px;
+    margin: 10px 5px;
+}
+.iphm_navbar_link a{
+    font-size: 15px;
+}
+
+
+/* Navbar2 styling  */
+.iphm_navbar2 .iphm_home .fa-home{
+    font-size: 17px;
+    padding: 5px 5px;
+    margin: 5px 55px;
+}
+.iphm_navbar2 .iphm_search input{
+    padding: 3px;
+    width: 150px;
+}
+.fa-brands, .fab{
+    font-size: 17px;
+    padding: 5px 5px;
+    margin: 10px 5px;
+}
+.iphm_navbar2 .iphm_search a{
+    padding: 5px 8px;
+    font-size: 15px;
+}
+
+
+/* Home Container Styling  */
+.iphm_container1 .iphm_para .heading{
+    font-size: 2rem;
+    padding: 40px 0px 20px 0px;
+}
+.iphm_container1 .iphm_para .p p{
+    font-size: 15px;
+    width: 85%;
+}
+.iphm_container1 .iphm_para .iphm_ytlogo{
+    width: 45vw;
+    font-size: 15px;
+}
+.iphm_container1 .iphm_para .iphm_ytlogo img{
+    width: 35px;
+    margin: 10px 5px;
+}
+
+
+
+
+/* Main content video collections styling  */
+.iphm_maincards .iphm_cardcontainder .iphm_cardrow{
+    flex-direction: column;
+}
+.iphm_maincards .iphm_cardcontainder .iphm_cardrow .cards{
+    width: 80vw;
+
+}
+.iphm_maincards .iphm_cardcontainder .iphm_cardrow .cards .image,.iphm_maincards .iphm_cardcontainder .iphm_cardrow .cards a{
+    width: 50%;
+    margin: 0px 10px;
+}
+.iphm_maincards .iphm_cardcontainder .iphm_cardrow div{
+    flex-direction: row;
+    padding: 15px 5px;
+}
+.iphm_maincards div h1{
+    font-size: 2rem;
+}
+
+
+/* MOTO section styling */
+.iphm_moto h1{
+    position: relative;
+    font-size: 2rem;
+    width: 50vw;
+}
+.iphm_moto ul{
+    width: 70%;
+    padding: 10px 10px 10px 20px;
+    text-align: left;
+}
+.iphm_moto ul li{
+    font-size: 15px;
+}
+.iphm_moto ul li .fa{
+    font-size: 10px;
+    padding: 0;
+    margin: 2px 10px 2px 0px;
+}
+
+
+
+
+/* Notes Page  Styling  */
+.iphm_notescards{
+    flex-direction: column;
+}
+.iphm_notescards .outerdiv .iphm_notes{
+    width: 40vw;
+}
+.iphm_notescards .outerdiv .iphm_notes h3{
+    font-size: 1rem;
+}
+.iphm_notescards .outerdiv .iphm_notes p{
+    font-size: 15px;
+}
+
+
+
+
+/* Blog page styling  */
+.iphm_blog h1{
+    font-size: 2rem;
+}
+
+
+/* AboutMe Page Styling  */
+.iphm_about{
+    padding: 20px;
+}
+.iphm_about .iphm_main{
+    flex-direction: column-reverse;
+}
+.iphm_about .iphm_main div{
+    margin: 10px;
+    padding: 10px 15px;
+}
+.iphm_about .image{
+    width: 100%;
+}
+.iphm_about .image img{
+    width: 170px;
+}
+.iphm_about .iphm_main div h1{
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+    width: 45%;
+    display: block;
+    margin: 0 auto;
+}
+.iphm_about .iphm_main ul li{
+    font-size: 1.1rem;
+}
+
+
+/* Login Page Styling? */
+.iphm_login form,.iphm_signin form{
+    width: 45vw;
+}
+.iphm_login img,.iphm_signin img{
+    width: 80px;
+}
+.iphm_login input,.iphm_signin input,.iphm_signin textarea{
+    font-size: 12px;
+    width: 30vw;
+}
+.iphm_signin form .email::before,.iphm_login form .email::before,.iphm_login form .password::before,.iphm_signin form .name::before,.iphm_signin form .name::before,.iphm_signin form .password::before,.iphm_signin form .message::before,.iphm_signin form .number::before{
+    font-size: 15px;
+}
+.iphm_signin .iphm_checkpp{
+    width: 35vw;
+    font-size: 13px;
+}
+
+
+
+/* Contact page styling */
+.iphm_contact .iphm_main div h1{
+    font-size: 2rem;
+}
+.iphm_contact .iphm_main .iphm_contact_links a .fa-brands{
+    font-size: 60px;
+}
+.iphm_contact .iphm_main{
+    padding: 20px;
+}
+
+
+/* Footer Styling */
+.iphm_reference h5 span{
+    font-size: 15px;
+}
+
+
+/* sliding notes styling  */

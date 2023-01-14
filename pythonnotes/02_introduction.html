@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" media="screen and (min-width: 696px) and (max-width: 1380px)" href="../ipad.css">
+    <link rel="stylesheet" media="screen and (min-width: 481px) and (max-width: 695px)" href="../ipadmini.css">
+    <link rel="stylesheet" media="screen and (min-width: 0px) and (max-width: 480px)" href="../phone.css">
+    <link rel="shortcut icon" style="border-radius: 100px;" href="../img/favicon.ico.png" type="image/x-icon">
+    <title>Informatics Practices Hindi Me</title>
+</head>
+
+<body>
+
+    <!-- NAVBAR AND MORE -->
+    <img src="../img/logo1.png" alt="" class="logo_resp">
+    <nav class="iphm_navbar h_nav">
+        <div class="iphm_navbar_logo v_class">
+            <a href="../index.html"><img src="../img/logo1.png" alt="logo here"></a>
+        </div>
+        <div class="iphm_navbar_link v_class">
+            <a href="../index.html">Home</a>
+            <a href="../resources.html" class="active">Notes</a>
+            <a href="../blog.html">Blog</a>
+            <a href="../contact.html">Contact</a>
+            <a href="../aboutme.html">About Me</a>
+        </div>
+        <div class="iphm_buttons v_class">
+            <a href="../login.html">Login</a>
+            <a href="../signin.html">Sign In</a>
+        </div>
+
+    </nav>
+    <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+
+    
+
+
+    <!-- main sliding section  -->
+    <section class="dp_slidingnotes">
+        <div class="dp_sidebar">
+            <h3>Contents</h3>
+            <ol>
+                <li><a href="./01_pythoninstallation.html" class="active"> Python Setup and Installation</a></li>
+                <li class="active"><a href="./02_introduction.html" class="active"> Introduction to Python Libraries and its Overview</a></li>
+                <li><a href="./03_pycharminstallation.html" class="active"> PyCharm IDE Installation</a></li>
+                <li><a href="./04_series.html" class="active"> Series and its creation in different ways</a></li>
+                <li><a href="./05_indexing.html" class="active"> Indexing in Series or Accessing Series Elements</a></li>
+                <li><a href="./06_slicing.html" class="active"> Slicing in Series or Subset Accessing in Series</a></li>
+                <li><a href="./07_seriesattributes.html" class="active"> Series Attributes and functionalites</a></li>
+                <li><a href="./08_nan.html" class="active"> Concept of np.NaN and more about indexing</a></li>
+                <li><a href="./09_head.html" class="active"> Head and Tail Functions in Series</a></li>
+                <li><a href="./10_math.html" class="active"> Mathematical Functions in Series Objects</a></li>
+                <li><a href="./11_dataframe.html" class="active"> DataFrame in Python Pandas and its creation in different ways</a></li>
+                <li><a href="./12_dfcsv.html" class="active"> DataFrame from CSV and Text File</a></li>
+                <li><a href="./13_dfattributes.html" class="active"> DataFrame Attributes and other functionalites</a></li>
+                <li><a href="./14_ilocmethods.html" class="active"> Iloc Methods for subset accessing in DataFrame</a></li>
+                <li><a href="./15_locmethods.html" class="active"> Loc Methods for subset accessing in DataFrame</a></li>
+                <li><a href="./16_addingcolumn.html" class="active"> Adding Columns to DataFrame</a></li>
+                <li><a href="./17_addingrow.html" class="active"> Adding Rows to DataFrame</a></li>
+                <li><a href="./18_deletingcolumn.html" class="active"> Deleting Columns from DataFrame</a></li>
+                <li><a href="./19_deletingrow.html" class="active"> Deleting Rows from DataFrame</a></li>
+                <li><a href="./20_renaminglabels.html" class="active"> Renaming Row and Column Labels in DataFrame</a></li>
+            </ol>
+        </div>
+        <div class="dp_content">
+            <h1>Introduction to Python Libraries</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/eZg-_q3PN7Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="normal">
+                Python Libraries are basically the collections of various entities and functions which are made to perform specific task easily and efficiently. These functions and functionalites are bundled together to form a Python Library or Framework. They are built in modules which help us to perform advanced operations. They have ready to use pre-defined functions or methods that are used to carry out the desired operation. <br>
+                In order to use the particular function of the library, we need to import the library and then we can use it easily. <br><br>
+                In our syllabus, we have to study two libraries of Python: <em style="font-weight:800; ">Pandas and Matplotlib</em> <br>
+            </p>
+
+            <h3 class="subheadings">Pandas: Data Management</h3>
+            <p class="normal">
+                Pandas stands for <em>Panel Data</em>.Pandas has the concept of various Data Structures which are used to store the data in various dimensions. Pandas has Series for storing data in 1-D, DataFrame for storing data in 2-D in the form of Table (Collection of Row and Columns) and Panel for storing data in 3-D in the form of multi-dimensional matrix. Pandas is
+
+                <ul>
+                    <li>a useful tool for data management and analysis.</li>
+                    <li>working on the concept of data structure.</li>
+                    <li>useful in easy storage and fast retreival of data.</li>
+                </ul>
+            </p>
+            <p class="ide">
+                <span class="idespan">
+                    Steps to install a PYTHON LIBRARY. <br><br>
+                </span>
+                    > Open Command Prompt or Windows PowerShell <br>
+                    > Type "pip install {library-name}" <br>
+                    > Press Enter <br> <br><br>
+
+                <span class="idespan">
+                    C:\users\system32 > pip install pandas  <span class="comment">#it will install pandas</span><br>
+                </span>
+                package downloaded successfully.... <br> <br> <br>
+
+                <span class="idespan">
+                    C:\users\system32 > pip install matplotlib <br>
+                </span>
+                package downloaded successfully.... <br>
+            </p>
+            <h3 class="subheadings">Data Structures in Pandas</h3>
+            <p class="normal">
+                Data Structures are defined as the collection of data/values in a particular fixed structure or pattern in order to arrange it properly for effective storage, fast retreival and manipulation of data.We are going to study two data structures of Python Pandas: <em style="font-weight:800; ">Series and DataFrame</em> 
+            </p>
+            
+            <div>
+                <a href="" class="action" target="_blank" title="Download Notes">Download Notes <i class="fa-solid fa-download"></i></a>
+            </div>
+
+            <div class="navigate">
+                <a href="./01_pythoninstallation.html" class="previous" title="Previous Page"><i class="fa-sharp fa-solid fa-backward" ></i></a>
+                <a href="./03_pycharminstallation.html" title="Next Page" class="next"><i class="fa-sharp fa-solid fa-forward"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+
+    
+    <script src="../index.js"></script>
+    <script>
+        let burger = document.querySelector('.burger');
+        let navbar = document.querySelector('.iphm_navbar ');
+        let navbarlink = document.querySelector('.iphm_navbar_link ');
+        let img = document.querySelector('.iphm_navbar_logo ')
+        let buttons = document.querySelector('.iphm_buttons ');
+        let img1 = document.querySelector('.logo_resp');
+
+        burger.addEventListener('click', () => {
+            navbar.classList.toggle('h_nav');
+            navbarlink.classList.toggle('v_class');
+            img.classList.toggle('v_class');
+            buttons.classList.toggle('v_class');
+            img1.classList.toggle('v_class');
+        })
+
+
+    </script>
+</body>
+
+</html>

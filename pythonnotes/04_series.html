@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" media="screen and (min-width: 696px) and (max-width: 1380px)" href="../ipad.css">
+    <link rel="stylesheet" media="screen and (min-width: 481px) and (max-width: 695px)" href="../ipadmini.css">
+    <link rel="stylesheet" media="screen and (min-width: 0px) and (max-width: 480px)" href="../phone.css">
+    <link rel="shortcut icon" style="border-radius: 100px;" href="../img/favicon.ico.png" type="image/x-icon">
+    <title>Informatics Practices Hindi Me</title>
+</head>
+
+<body>
+
+    <!-- NAVBAR AND MORE -->
+    <img src="../img/logo1.png" alt="" class="logo_resp">
+    <nav class="iphm_navbar h_nav">
+        <div class="iphm_navbar_logo v_class">
+            <a href="../index.html"><img src="../img/logo1.png" alt="logo here"></a>
+        </div>
+        <div class="iphm_navbar_link v_class">
+            <a href="../index.html">Home</a>
+            <a href="../resources.html" class="active">Notes</a>
+            <a href="../blog.html">Blog</a>
+            <a href="../contact.html">Contact</a>
+            <a href="../aboutme.html">About Me</a>
+        </div>
+        <div class="iphm_buttons v_class">
+            <a href="../login.html">Login</a>
+            <a href="../signin.html">Sign In</a>
+        </div>
+
+    </nav>
+    <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+
+
+
+    <!-- main sliding section  -->
+    <section class="dp_slidingnotes">
+        <div class="dp_sidebar">
+            <h3>Contents</h3>
+            <ol>
+                <li><a href="./01_pythoninstallation.html" class="active"> Python Setup and Installation</a></li>
+                <li><a href="./02_introduction.html" class="active"> Introduction to Python Libraries and its
+                        Overview</a></li>
+                <li><a href="./03_pycharminstallation.html" class="active"> PyCharm IDE Installation</a></li>
+                <li class="active"><a href="./04_series.html" class="active"> Series and its creation in different
+                        ways</a></li>
+                <li><a href="./05_indexing.html" class="active"> Indexing in Series or Accessing Series Elements</a>
+                </li>
+                <li><a href="./06_slicing.html" class="active"> Slicing in Series or Subset Accessing in Series</a></li>
+                <li><a href="./07_seriesattributes.html" class="active"> Series Attributes and functionalites</a></li>
+                <li><a href="./08_nan.html" class="active"> Concept of np.NaN and more about indexing</a></li>
+                <li><a href="./09_head.html" class="active"> Head and Tail Functions in Series</a></li>
+                <li><a href="./10_math.html" class="active"> Mathematical Functions in Series Objects</a></li>
+                <li><a href="./11_dataframe.html" class="active"> DataFrame in Python Pandas and its creation in
+                        different ways</a></li>
+                <li><a href="./12_dfcsv.html" class="active"> DataFrame from CSV and Text File</a></li>
+                <li><a href="./13_dfattributes.html" class="active"> DataFrame Attributes and other functionalites</a>
+                </li>
+                <li><a href="./14_ilocmethods.html" class="active"> Iloc Methods for subset accessing in DataFrame</a>
+                </li>
+                <li><a href="./15_locmethods.html" class="active"> Loc Methods for subset accessing in DataFrame</a>
+                </li>
+                <li><a href="./16_addingcolumn.html" class="active"> Adding Columns to DataFrame</a></li>
+                <li><a href="./17_addingrow.html" class="active"> Adding Rows to DataFrame</a></li>
+                <li><a href="./18_deletingcolumn.html" class="active"> Deleting Columns from DataFrame</a></li>
+                <li><a href="./19_deletingrow.html" class="active"> Deleting Rows from DataFrame</a></li>
+                <li><a href="./20_renaminglabels.html" class="active"> Renaming Row and Column Labels in DataFrame</a>
+                </li>
+            </ol>
+        </div>
+        <div class="dp_content">
+            <h1>Series & its creation in different ways</h1>
+            <iframe src="https://www.youtube.com/embed/-RM7es0Z8zI/?controls=1"></iframe>
+            <p class="normal">
+                Series is one of the Data Structure of Python Pandas which stores data in Linear fashion. Series is
+            <ul>
+                <li>a one dimensional (1-D) array.</li>
+                <li>stores homogenous data that is stores similar type of data. Storing data of different type is not
+                    possible simultaneouly in one series.</li>
+                <li>size immutable which means once created, the size of the series cannot be changed by adding or
+                    removing the elements in it.</li>
+                <li>data mutable which means that data or value within the series can be changed using reassign
+                    operation.</li>
+            </ul><br>
+            <span class="note">Note:</span> While creating series, the "S" of Series must be capital.. <br><br>
+            Eg. Series of int for storing marks of a subject or series of float for storing percentage of students, etc.
+            </p>
+
+
+            <!-- section for creation of series form numpy arrays  -->
+            <h3 class="subheadings">
+                Creating Series from Numpy Arrays:
+            </h3>
+            <p>While creating series from numpy arrays, we firstly create a numpy array and then we pass the created
+                numpy array from Series funcion. If you guys are not familiar with arrays, so first you must be knowing
+                what it actually is. <br> Arrays are datatypes which stores similar type of data i.e. either int or
+                float or string/object in contiguous memory locations.</p>
+            <p class="ide">
+                <span class="comment">#importing required libraries</span><br><br>
+                <span class="idespan">
+                    <span class="keyword">import</span> pandas as <span class="alias">pd</span> <br>
+                    <span class="keyword">import</span> numpy as <span class="alias">np</span> <br><br>
+
+                    <span class="comment">#creating a numpy array of names</span><br>
+                    <span class="variable">arr</span> = <span class="alias">np</span>.<span
+                        class="span function">array</span>(['Aman', 'Raghav', 'Shubham', 'Rohit', 'Yash']) <br>
+                    <span class="variable">ser</span> = <span class="alias">pd</span>.<span
+                        class="span function">Series</span>(<span class="variable">arr</span>)
+                    <br><br>
+
+                    <span class="comment">#printing the created series below</span><br>
+                    <span class="function">print</span>(<span class="variable">ser</span>)<br>
+                </span>
+            </p>
+            <div class="table">
+                <span class="idespan">OUTPUT: </span><br><br>
+                <table>
+                    <tr>
+                        <td>0</td>
+                        <td>Aman</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Raghav</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Shubham</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Rohit</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Yash</td>
+                    </tr>
+                    <tr>
+                        <td>dtype: </td>
+                        <td>object</td>
+                    </tr>
+                </table>
+            </div>
+
+
+            <!-- section for creation of series from lists  -->
+            <h3 class="subheadings">Creating Series from Lists: </h3>
+            <p class="normal">
+                Lists are basically the collections of items which can be either of same datatype or different or both
+                simultaneouly. List elements are enclosed by [] and are seperated by commas. <br>
+                Eg. kirana = ['Sugar', 'Rice','Tea','Cashew',100,68.8]
+            </p>
+            <p class="ide">
+                <span class="comment">#importing required libraries</span><br><br>
+                <span class="idespan">
+                    <span class="keyword">import</span> pandas as <span class="alias">pd</span> <br>
+                    <br>
+
+                    <span class="comment">#creating a list of kirana items😂🤣</span><br>
+                    <span class="variable">kirana</span> = ['Sugar','Rice','Tea','Oil','Cookies'] <br>
+                    <span class="variable">ser</span> = <span class="alias">pd</span>.<span
+                        class="span function">Series</span>(<span class="variable">kirana</span>)
+                    <br><br>
+
+                    <span class="comment">#printing the created series below</span><br>
+                    <span class="function">print</span>(<span class="variable">ser</span>)<br>
+                </span>
+            </p>
+            <div class="table">
+                <span class="idespan">OUTPUT: </span><br><br>
+                <table>
+                    <tr>
+                        <td>0</td>
+                        <td>Sugar</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Rice</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Tea</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Oil</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Cookies</td>
+                    </tr>
+                    <tr>
+                        <td>dtype: </td>
+                        <td>object</td>
+                    </tr>
+                </table>
+            </div>
+
+
+            <!-- section for creation of series from dictionary  -->
+            <h3 class="subheadings">Creation of Series from Dictionary:</h3>
+            <p class="normal">Dictionary is also a datatype of Python which stores data in the form of key and value pair. Every value that is element is associated with its corresponding key which can be used to access the value. In a dictionary, every pair is seperated with commas(,) and every key and its value is seperated by colon(:).<br><br>
+            Example: <br>
+            dict = key1:value1, key2:value2, key3:value3, ------<br>
+            days = {1:'Sunday', 2:'Monday', 3:'Tuesday', 4:'Wednesday', 5:'Thursday', 6:'Friday', 7:'Saturday'} <br><br>
+
+            <span class="note">Note:</span>When we create series from dictionary, key becomes the <em>index</em> of the series and value becomes the <em>data</em> of the Series.
+         </p>
+         <p class="ide">
+            <span class="comment">#importing required libraries</span><br><br>
+            <span class="idespan">
+                <span class="keyword">import</span> pandas as <span class="alias">pd</span> <br>
+                <br>
+
+                <span class="comment">#creating a dictionary of days of week</span><br>
+                <span class="variable">days</span> = {'Day1':'Sunday', 'Day2':'Monday', 'Day3':'Tuesday', 'Day4':'Wednesday', 'Day5':'Thursday', 'Day6':'Friday', 'Day7':'Saturday'} <br><br>
+                <span class="variable">ser</span> = <span class="alias">pd</span>.<span
+                    class="span function">Series</span>(<span class="variable">days</span>)
+                <br><br>
+
+                <span class="comment">#printing the created series below</span><br>
+                <span class="function">print</span>(<span class="variable">ser</span>)<br>
+            </span>
+        </p>
+        <div class="table">
+                <span class="idespan">OUTPUT: </span><br><br>
+                <table>
+                    <tr>
+                        <td>Day1</td>
+                        <td>Sunday</td>
+                    </tr>
+                    <tr>
+                        <td>Day2</td>
+                        <td>Monday</td>
+                    </tr>
+                    <tr>
+                        <td>Day3</td>
+                        <td>Tuesday</td>
+                    </tr>
+                    <tr>
+                        <td>Day4</td>
+                        <td>Wednesday</td>
+                    </tr>
+                    <tr>
+                        <td>Day5</td>
+                        <td>Thursday</td>
+                    </tr>
+                    <tr>
+                        <td>Day6</td>
+                        <td>Friday</td>
+                    </tr>
+                    <tr>
+                        <td>Day7</td>
+                        <td>Saturday</td>
+                    </tr>
+                    <tr>
+                        <td>dtype: </td>
+                        <td>object</td>
+                    </tr>
+                </table>
+            </div>
+
+
+            <!-- section for the creation of series from scalar value  -->
+            <h3 class="subheadings">Creating Series from Scalar Value:</h3>
+            <p class="normal">If we want to create the series such that all the data values are to be same so, we can use the method of scalar value. For this, we use a range function which gives the number of values in the resultant series.</p>
+            <p class="ide">
+                <span class="comment">#importing required libraries</span><br><br>
+            <span class="idespan">
+                <span class="keyword">import</span> pandas as <span class="alias">pd</span> <br>
+                <br>
+
+                <span class="comment">#creating a series of scalar value</span><br>
+                <span class="variable">ser</span> = <span class="alias">pd</span>.<span
+                    class="span function">Series</span>("Welcome to IPHM",<span class="function">range</span>(0,5))
+                <br><br>
+                <span class="comment">#printing the created series below</span><br>
+                <span class="function">print</span>(<span class="variable">ser</span>)<br>
+            </span>
+            </p>
+            <div class="table">
+                <span class="idespan">OUTPUT: </span><br><br>
+                <table>
+                    <tr>
+                        <td>0</td>
+                        <td>Welcome to IPHM</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Welcome to IPHM</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Welcome to IPHM</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Welcome to IPHM</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Welcome to IPHM</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Welcome to IPHM</td>
+                    </tr>
+                    <tr>
+                        <td>dtype: </td>
+                        <td>object</td>
+                    </tr>
+                </table>
+            </div>
+
+
+
+            <div>
+                <a href="" class="action" target="_blank" title="Download Notes">Download Notes <i
+                        class="fa-solid fa-download"></i></a>
+            </div>
+
+            <div class="navigate">
+                <a href="./03_pycharminstallation.html" class="previous" title="Previous Page"><i
+                        class="fa-sharp fa-solid fa-backward"></i></a>
+                <a href="./05_indexing.html" title="Next Page" class="next"><i
+                        class="fa-sharp fa-solid fa-forward"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <script src="../index.js"></script>
+    <script>
+        let burger = document.querySelector('.burger');
+        let navbar = document.querySelector('.iphm_navbar ');
+        let navbarlink = document.querySelector('.iphm_navbar_link ');
+        let img = document.querySelector('.iphm_navbar_logo ')
+        let buttons = document.querySelector('.iphm_buttons ');
+        let img1 = document.querySelector('.logo_resp');
+
+        burger.addEventListener('click', () => {
+            navbar.classList.toggle('h_nav');
+            navbarlink.classList.toggle('v_class');
+            img.classList.toggle('v_class');
+            buttons.classList.toggle('v_class');
+            img1.classList.toggle('v_class');
+        })
+
+
+    </script>
+</body>
+
+</html>
